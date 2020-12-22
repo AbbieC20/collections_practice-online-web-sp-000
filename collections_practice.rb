@@ -56,5 +56,3 @@ def add_s(array)
 end
 #add an s to each work except the 2nd postion
 #["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"]
-
-
