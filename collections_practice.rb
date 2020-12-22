@@ -7,7 +7,6 @@ def sort_array_asc(numbers)
     elsif a > b
       1
     end
-
   puts numbers
 end
 
