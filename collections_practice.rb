@@ -45,5 +45,8 @@ def sum_array(array)
   return array.inject(0, :+)
 end
 
-#sum all the numbers in the following array
-#([11,4,7,8,9,100,134])).to eq(273)
+
+def add_s(array)
+end
+#add an s to each work except the 2nd postion
+#["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"]
