@@ -26,7 +26,7 @@ end
 def kesha_maker(array)
   updated_array = []
   array.each do |name|
-    output = name.reverse
+    output = name[2]
     updated_array.push(output)
   end
   return updated_array
