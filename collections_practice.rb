@@ -12,4 +12,7 @@ def sort_array_char_count(array)
   return array.sort_by(&:length)
 end
 
-#
+
+def swap_elements(array)
+
+end
