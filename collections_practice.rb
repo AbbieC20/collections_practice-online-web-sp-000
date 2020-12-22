@@ -40,6 +40,6 @@ def find_a(array)
   end
 end
 
-#find all words that begin with "a" in the following array
-#"apple", "orange", "pear", "avis", "arlo", "ascot" ])).
-#to eq(["apple", "avis", "arlo", "ascot"]
+
+def sum_array(array)
+end 
