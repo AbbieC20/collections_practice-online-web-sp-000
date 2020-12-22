@@ -26,8 +26,8 @@ end
 def kesha_maker(array)
   updated_array = []
   array.each do |name|
-    output = name[2]
-    updated_array.push(output)
+    name[2] ="$"
+    updated_array.push(name)
   end
   return updated_array
 end
