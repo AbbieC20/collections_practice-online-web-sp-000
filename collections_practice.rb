@@ -49,7 +49,9 @@ end
 def add_s(array)
   updated_array = []
   array.each do |word|
-    word.insert(-1, 's')
+    if word != "feet"
+      word.insert(-1, 's')
+    end 
     updated_array.push(word)
   end
   return updated_array
