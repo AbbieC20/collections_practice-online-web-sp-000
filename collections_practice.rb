@@ -24,7 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.gsub / [3]/, "$"
+  array.gsub /[3]/, "$"
   return array
 end
 #"blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"
