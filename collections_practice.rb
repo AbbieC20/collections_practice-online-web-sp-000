@@ -42,4 +42,7 @@ end
 
 
 def sum_array(array)
-end 
+end
+
+#sum all the numbers in the following array
+#([11,4,7,8,9,100,134])).to eq(273)
