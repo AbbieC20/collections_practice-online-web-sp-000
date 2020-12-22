@@ -1,12 +1,7 @@
 def sort_array_asc(numbers)
   numbers.sort do |a, b|
-    if a == b
-      0
-    elsif a < b
-      -1
-    elsif a > b
-      1
-    end
+      a <=> b
+  end
   return numbers
 end
 
