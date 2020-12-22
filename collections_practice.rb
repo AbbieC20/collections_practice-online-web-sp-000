@@ -24,12 +24,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  updated_array = []
-  array.each do |name|
-    output = name.gsub /[3]/, "$"
-    updated_array.push(output)
-  end
-  return updated_array
+  array.gsub / [3]/, "$"
+  return array
 end
 #"blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"
 #taking an array as an input, change the 3rd character of each element to a dollar sign.
