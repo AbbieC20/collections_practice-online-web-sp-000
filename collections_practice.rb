@@ -4,7 +4,7 @@ end
 
 
 def sort_array_desc(numbers)
-
+  return numbers.sort { |a, b| b <=> a } 
 end
 
 #should return an array sorted in descending order
