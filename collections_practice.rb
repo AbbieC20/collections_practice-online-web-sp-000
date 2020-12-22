@@ -17,7 +17,3 @@ def swap_elements(array)
   array [1], array [2] = array [2], array [1]
   return array
 end
-#swap the second and third elements of an array
-#["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"]
-#Remember that array indices start at 0, so the second element is 1 and the
-#third element has an index of 2
