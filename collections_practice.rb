@@ -8,7 +8,7 @@ def sort_array_desc(numbers)
 end
 
 
-def sort_array_char_count
+def sort_array_char_count(array)
 end
 
 #return an array in ascending order sorted by the number of characters in the string
