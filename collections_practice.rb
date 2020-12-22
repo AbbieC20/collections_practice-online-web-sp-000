@@ -1,8 +1,5 @@
 def sort_array_asc(numbers)
-  numbers.sort do |a, b|
-      a <=> b
-  end
-  return numbers
+  return numbers.sort do |a, b|
 end
 
 #Build a method sort_array_asc that takes in an array of integers and
