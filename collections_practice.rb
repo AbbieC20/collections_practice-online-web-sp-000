@@ -22,3 +22,11 @@ end
 def reverse_array(array)
   return array.reverse
 end
+
+def kesha_maker(array)
+
+end
+#"blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"
+#taking an array as an input, change the 3rd character of each element to a dollar sign.
+
+
