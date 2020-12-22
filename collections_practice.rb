@@ -24,12 +24,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  counter = 0
-  while counter < array.length
-    yield array[counter]
-    counter += 1
+  updated_array = []
+  array.each do |name|
+    
   end
-  return array
+  return updated_array
 end
 #"blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"
 #taking an array as an input, change the 3rd character of each element to a dollar sign.
