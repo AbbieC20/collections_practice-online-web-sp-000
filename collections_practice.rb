@@ -22,8 +22,3 @@ end
 def reverse_array(array)
   return array.reverse
 end
-
-#[12, 4, 35])).to eq([35, 4, 12])
-#reverse the order of an array of integers
-#Build a method reverse_array that takes in an array of integers and
-#returns a copy of the array with the elements in reverse order.
