@@ -19,7 +19,9 @@ def swap_elements(array)
 end
 
 
+def reverse_array(array)
 
+end
 
 #reverse the order of an array of integers
 #Build a method reverse_array that takes in an array of integers and
