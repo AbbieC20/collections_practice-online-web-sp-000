@@ -20,7 +20,7 @@ end
 
 
 def reverse_array(array)
-
+  return array.reverse
 end
 
 #[12, 4, 35])).to eq([35, 4, 12])
