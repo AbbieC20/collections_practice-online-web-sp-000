@@ -42,7 +42,7 @@ end
 
 
 def sum_array(array)
-  return array.inject
+  return array.inject(0, :+)
 end
 
 #sum all the numbers in the following array
