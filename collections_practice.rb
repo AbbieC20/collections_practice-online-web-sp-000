@@ -35,6 +35,11 @@ end
 
 
 def find_a(array)
+  array.select do |words|
+    words. 
+  end
 end
 
 #find all words that begin with "a" in the following array
+#"apple", "orange", "pear", "avis", "arlo", "ascot" ])).
+#to eq(["apple", "avis", "arlo", "ascot"]
