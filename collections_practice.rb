@@ -47,7 +47,12 @@ end
 
 
 def add_s(array)
-  array. 
+  updated_array = []
+  array.each do |word|
+    word.insert(-1, 's')
+    updated_array.push(word)
+  end
+  return updated_array
 end
 #add an s to each work except the 2nd postion
 #["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"]
