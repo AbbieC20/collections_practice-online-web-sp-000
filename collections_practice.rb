@@ -4,6 +4,7 @@ end
 
 
 def sort_array_desc(numbers)
+  return numbers.sort_by(true, &:itself)
 end
 
 #should return an array sorted in descending order
